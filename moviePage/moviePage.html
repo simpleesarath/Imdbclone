@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>IMDb clone-moviePage</title>
+    <link rel="shortcut icon" href="../imdb_logo2.png" type="image/x-icon">
+
+    <!-- css style ,actually its a external style sheet-->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body >
+    
+    <!-- Outer Container or wrapper-->
+    <div  style="background-color:gray" class="outer-container">
+        <!-- for logo part  -->
+        <div class="logo">
+            <!--im creating a nav-bar with two things logo nd fav-->
+            <div class="container nav-bar">
+                <a href="../index.html" id="logo"><img src="../logo.png" alt=""></a>
+                <a href="../fav/favPage.html" id="fav">Favourites</a>
+            </div>
+        </div>
+        <!-- end of nav -->
+
+        <!-- search bar container -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+
+                   <!-- All data related to movie will be appear over here -->
+                
+                </div>
+                <button id="addToFav">Add to Favourites</button>
+            </div>
+        </div>
+        <!-- End of result container -->
+
+    </div>
+    <footer class="footer">by sarath...</footer>
+    <!-- JS file -->
+    <script src="moviePage.js"></script>
+</body>
+</html>

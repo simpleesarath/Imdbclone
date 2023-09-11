@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>IMDB clone-homepage</title>
+    
+    <link rel="icon" href="blogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Outer-container for all the elements-->
+    <div class="outer-container" id="oc" >
+
+        <!-- Navbar -->
+        <div class="logo">
+            <div class="container nav-bar">
+                <a href="index.html" id="logo"><img src="logo.png" alt=""></a>
+                <a href="fav/favPage.html" id="fav">Favourites</a>
+            </div>
+        </div>
+        <!-- end of logo -->
+
+        <!-- Search container -->
+        <div class="search-container">
+            <div class="search-element">
+                
+                <!-- for Search box and some hidden search list -->
+                <input type="text" class="form-control" placeholder="Search Movie Title..." id="movie-search-box" >
+
+                <div class="search-list" id="search-list">
+                    <!-- its like a suggestions box,which gives movie title -->
+                </div>
+
+            </div>
+        </div>
+        <!-- end of Search container -->
+
+    </div>
+        <!-- footer section -->
+    <footer class="footer">by sarath...</footer>
+    <!-- end of outer container -->
+
+    <!-- connecting Javascript file  -->
+    <script src="script.js"></script>
+</body>
+</html>
