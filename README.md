@@ -1,7 +1,8 @@
 # IMDb_cloneapp  
 **IMDb Clone Website**  
 Website Screenshot:  
-![image](https://github.com/simpleesarath/IMDb_cloneapp/assets/88574803/7fb15852-0ce2-40f7-9f9b-79ae3a64eb89)
+![Screenshot (230)](https://github.com/simpleesarath/Imdbclone/assets/88574803/acac48ab-c7cb-4816-bc4c-1d6cdbc1fbb5)
+
 
 This is a clone of the popular Internet Movie Database (IMDb) website. It is a platform for movie enthusiasts to discover, explore, and learn about movies, TV shows, actors, and more. Users can search for movies, view detailed information about them, read reviews, and even rate their favorite films. 
 
