@@ -28,7 +28,7 @@ User Profiles: User profiles with personal information and reviews.
 Responsive Design: The website is responsive and works well on various devices.
 Demo  
 
-You can check out the live demo of the IMDb Clone website at https://www.imdb-clone.com.   
+You can check out the live demo of the IMDb Clone website at https://simpleesarath.github.io/Imdbclone/index.html  
 
 <hr>
 
