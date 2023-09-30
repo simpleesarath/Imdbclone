@@ -148,7 +148,7 @@ img {
   position: absolute;
   right: 0;
   top: 100%;
-  max-height: 500px;
+  max-height: 300px;
   overflow-y: scroll;
   z-index: 10;
   
@@ -368,7 +368,7 @@ img {
     font-size: 0.8rem;
   }
   .search-list {
-    width: 100%;
+    width: 100% !important;
     right: 50%;
     transform: translateX(50%);
   }
