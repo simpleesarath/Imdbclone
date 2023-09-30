@@ -35,10 +35,7 @@ img {
 
 .outer-container {
   min-height: 100vh;
-  /* background-color: var(--dark-color); */
-  /* background-image: url(""); */
   background-color: #243a5e !important ;
-  /* background-image: url(/movie-clapper.png); */
 }
 
 .outer-container .container {
@@ -119,6 +116,8 @@ img {
   flex-direction: column;
   position: relative;
   font-family: consolas;
+  border-radius: 8px;
+  /* border:3px solid #000; */
 }
 
 .search-element h1 {
@@ -129,20 +128,20 @@ img {
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
-.search-element{
-  border: 6px solid rgb(31, 38, 38) !important;
-  border-radius: 8px;
-}
+
 
 .search-element .form-control {
   padding: 1rem 2rem;
   font-size: 1.4rem;
   border-radius:5px;
   outline: none;
-  border: 3px;
+  
   width: 350px;
   color: var(--light-dark-color);
   font-family: consolas;
+}
+.form-control{
+  border: 3px;
 }
 
 .search-list {
@@ -287,7 +286,6 @@ img {
 }
 
 .movie-info .genre {
-  /* background-color: var(--light-dark-color); */
   display: inline-block;
   padding: 0.2rem;
   border-radius: 3px;
@@ -349,19 +347,28 @@ img {
 
 @media screen and (max-width: 450px) {
   .logo a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .search-element .form-control {
-    width: 90%;
+    width:70%;
     margin: 0 auto;
     padding: 0.5rem 1rem;
+    border:2px solid #000;
+  }
+  /* .form-control{
+    font-size: smaller;
+    
+  } */
+  #movie-search-box{
+    font-size: smaller;
+    width: 180px;
   }
 
-  .search-elementh h3 {
-    font-size: 1.4rem;
+  .search-element h3 {
+    font-size: 1.2rem;
   }
   .search-list {
-    width: 90%;
+    width: 70%;
     right: 50%;
     transform: translateX(50%);
   }
@@ -381,11 +388,26 @@ img {
   #addToFav {
     font-size: 1rem;
   }
+  .movie-info{
+    margin-top:2%;
+    width:60%;
+    margin-left :25%; 
+  }
 }
-
+@media screen and (min-width: 451px) {
+  .search-element{
+    border: 2.5px solid #000;
+  }
+  .movie-info{
+    margin-top:5%;
+    width:80%;
+    margin-left :10%; 
+  }
+}
 @media screen and (min-width: 800px) {
   .search-element {
     flex-direction: row;
+    border:3px solid #000;
   }
 
   .search-element h1 {
