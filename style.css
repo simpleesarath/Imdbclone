@@ -371,6 +371,7 @@ img {
     width: 100% !important;
     right: 50%;
     transform: translateX(50%);
+    max-height:220px;
   }
 
   .search-list .search-list-item {
