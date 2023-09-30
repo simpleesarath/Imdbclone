@@ -368,7 +368,7 @@ img {
     font-size: 1.2rem;
   }
   .search-list {
-    width: 70%;
+    width: 100%;
     right: 50%;
     transform: translateX(50%);
   }
