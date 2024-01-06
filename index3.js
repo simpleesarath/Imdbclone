@@ -22,7 +22,7 @@ const findMovies = () => {
 
 // fetching movies from OMDB API
 async function fetchMovies(searchTerm) {
-          const URL = `http://www.omdbapi.com/?s=${searchTerm}&page=1&apikey=755f786c`;
+          const URL = `http://www.omdbapi.com/?s=${searchTerm}&page=1&apikey= 57bb1f83`;
 
           const res = await fetch(`${URL}`); //Fetching data from server
 
